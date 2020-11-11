@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func handling() {
+        try! throwing()
+    }
 
+    func throwing() throws {
+        throw NSError(domain: "a", code: 1, userInfo: nil)
+    }
 }
-
