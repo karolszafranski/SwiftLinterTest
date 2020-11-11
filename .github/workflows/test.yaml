@@ -17,5 +17,8 @@ jobs:
         xcrun simctl list
         xcodebuild -showsdks
 
+    - name: SwiftLint check
+      run: swiftlint help || true
+
     - name: Execute tests
       run: xcodebuild -scheme SwiftLinterTest test -destination "name=iPhone 11 Pro"
