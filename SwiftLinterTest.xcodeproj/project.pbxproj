@@ -557,7 +557,7 @@
 				0DF37CE5255C1BC000753FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0DF37CE6255C1BC000753FD6 /* Build configuration list for PBXNativeTarget "SwiftLinterTest" */ = {
 			isa = XCConfigurationList;
@@ -566,7 +566,7 @@
 				0DF37CE8255C1BC000753FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0DF37CE9255C1BC000753FD6 /* Build configuration list for PBXNativeTarget "SwiftLinterTestTests" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +575,7 @@
 				0DF37CEB255C1BC000753FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0DF37CEC255C1BC000753FD6 /* Build configuration list for PBXNativeTarget "SwiftLinterTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,7 +584,7 @@
 				0DF37CEE255C1BC000753FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
