@@ -1,0 +1,21 @@
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: macos-latest
+    name: Framework Unit Tests
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - name: List available devices and SDKs
+      run: |
+        xcrun simctl list
+        xcodebuild -showsdks
+
+    - name: Execute tests
+      run: xcodebuild -scheme SwiftLinterTest test -destination "name=iPhone 11 Pro"
