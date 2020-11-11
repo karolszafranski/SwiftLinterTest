@@ -21,7 +21,7 @@ jobs:
       run: swiftlint help || true
 
     - name: Install SwiftLint with Homebrew
-      run: brew install swiftlint
+      run: brew reinstall swiftlint
 
     - name: Install cocoapods
       run: pod install
