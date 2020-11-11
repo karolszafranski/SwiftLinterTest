@@ -20,5 +20,8 @@ jobs:
     - name: SwiftLint check
       run: swiftlint help || true
 
+    - name: Install cocoapods
+      run: pod install
+
     - name: Execute tests
       run: xcodebuild -scheme SwiftLinterTest test -destination "name=iPhone 11 Pro"
